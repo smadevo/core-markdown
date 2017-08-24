@@ -1,5 +1,5 @@
 {
-    "name":        "smadevo/core-markdown",
+    "name":        "smadevo/markdown",
     "description": "Markdown extension for smadevo/core components.",
     "version":     "1.0.0",
     "require":
@@ -10,9 +10,9 @@
     },
     "autoload":
     {
-        "psr-4":
-        {
-            "App\\": "class"
-        }
+        "classmap":
+        [
+            "src"
+        ]
     }
 }
